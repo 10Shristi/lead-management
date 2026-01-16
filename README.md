@@ -80,21 +80,19 @@ So Markdown thinks **everything below** is part of the same block/section.
 ### Seeding Command
 ```bash
 node seed.js
+---
+```md
+## Environment Variables
 
-Environment Variables
-Backend (backend/.env)
-MONGO_URI=<your_mongodb_atlas_connection_string>
+### Backend (`backend/.env`)
+
+```env
+MONGO_URI=<mongodb_atlas_connection_string>
 PORT=5000
-
-Frontend (frontend/.env)
 VITE_API_BASE_URL=http://localhost:5000
+---
+```md
+## Deployed Application
 
-
-.env files are excluded from version control.
-
-Deployed Application
-
-Frontend: https://lead-management-rosy.vercel.app
-
-Backend: https://lead-backend-mnjs.onrender.com
-
+- **Frontend:** https://lead-management-rosy.vercel.app
+- **Backend:** https://lead-backend-mnjs.onrender.com
