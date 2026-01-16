@@ -81,7 +81,7 @@ So Markdown thinks **everything below** is part of the same block/section.
 ```bash
 node seed.js
 ---
-```md
+```
 ## Environment Variables
 
 ### Backend (`backend/.env`)
@@ -89,10 +89,14 @@ node seed.js
 ```env
 MONGO_URI=<mongodb_atlas_connection_string>
 PORT=5000
+
+```
+### Frontend (`frontend/.env`)
 VITE_API_BASE_URL=http://localhost:5000
+
 ---
-```md
+```
 ## Deployed Application
 
-- **Frontend:** https://lead-management-rosy.vercel.app
-- **Backend:** https://lead-backend-mnjs.onrender.com
+- Frontend: https://lead-management-rosy.vercel.app
+- Backend: https://lead-backend-mnjs.onrender.com
