@@ -66,6 +66,12 @@ The application uses a **basic email and password authentication system**, which
 
 ---
 
+
+So Markdown thinks **everything below** is part of the same block/section.
+
+---
+
+
 ## Database & Seeding
 
 - MongoDB Atlas (Free Tier) is used as the database
@@ -75,11 +81,9 @@ The application uses a **basic email and password authentication system**, which
 ```bash
 node seed.js
 
----
 Environment Variables
 Backend (backend/.env)
-MONGO_URI=<MongoDB Atlas connection string>
-
+MONGO_URI=<your_mongodb_atlas_connection_string>
 PORT=5000
 
 Frontend (frontend/.env)
@@ -88,7 +92,9 @@ VITE_API_BASE_URL=http://localhost:5000
 
 .env files are excluded from version control.
 
-### Deployed Application
+Deployed Application
 
--Frontend:   https://lead-management-rosy.vercel.app
--Backend: https://lead-backend-mnjs.onrender.com
+Frontend: https://lead-management-rosy.vercel.app
+
+Backend: https://lead-backend-mnjs.onrender.com
+
