@@ -75,7 +75,20 @@ The application uses a **basic email and password authentication system**, which
 ```bash
 node seed.js
 
-## Deployed Application
+---
+Environment Variables
+Backend (backend/.env)
+MONGO_URI=<MongoDB Atlas connection string>
 
-- **Frontend:** https://lead-management-rosy.vercel.app
-- **Backend:** https://lead-backend-mnjs.onrender.com
+PORT=5000
+
+Frontend (frontend/.env)
+VITE_API_BASE_URL=http://localhost:5000
+
+
+.env files are excluded from version control.
+
+### Deployed Application
+
+-Frontend:   https://lead-management-rosy.vercel.app
+-Backend: https://lead-backend-mnjs.onrender.com
