@@ -75,3 +75,7 @@ The application uses a **basic email and password authentication system**, which
 ```bash
 node seed.js
 
+## Deployed Application
+
+- **Frontend:** https://lead-management-rosy.vercel.app
+- **Backend:** https://lead-backend-mnjs.onrender.com
