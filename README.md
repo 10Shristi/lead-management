@@ -64,7 +64,7 @@ The application uses a **basic email and password authentication system**, which
 - `POST /api/auth/signup`
 - `POST /api/auth/login`
 
----
+
 
 
 So Markdown thinks **everything below** is part of the same block/section.
@@ -95,8 +95,7 @@ PORT=5000
 VITE_API_BASE_URL=http://localhost:5000
 
 ---
-```
-## Deployed Application
+### Deployed Application
 
 - Frontend: https://lead-management-rosy.vercel.app
 - Backend: https://lead-backend-mnjs.onrender.com
